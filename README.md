@@ -1,28 +1,38 @@
-# ConFusion
+## Project Summary
+Confusion is a single-page web application for an indian-based restaurant called confusion that aims to show restaurant's aviable dishes and make users able to favorite and comment them. The application is built on the [MEAN Stack](https://en.wikipedia.org/wiki/MEAN_(software_bundle)) of technologies and using RESTful web services architecture.<br/>
+This project was generated with [Angular](https://angular.io) version 9.0.2.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
+## Features:
+- [Single page application (SPA)](https://en.wikipedia.org/wiki/Single-page_application).
+- HTTPS secure communication.
+- User registration system.
+- Authentication using [JSON Web Token (JWT)](https://tools.ietf.org/html/rfc7519).
+- CRUD dishes operations for users with an admin privilege.
+- CRUD leaders operations for users with an admin privilege.
+- CRUD promotions operations for users with an admin privilege.
+- Review (rate and comment) to restaurant's dishes.
+- JSON API endpoints for all dishes, reviews, promotions, leaders, and favorites.
+- Elegant and responsive UI.
 
-## Development server
+## Testing the Application
+Want to Test? Great!
+Let's start by cloning the project in your machine
+Open your terminal and execute
+```sh
+git clone https://github.com/Rayen-cherni/conFusion-project.git
+```
+Great, then run the following command line to run the project locally 
+```sh
+npm install
+ng serve --open
+```
+You will be redirected automatically to http://localhost:4600. <br/>
+If you have any problem with the redirection please go to your Browser and tap
+```sh
+http://localhost:4600
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-"# SinglePageApplication" 
+## Further information
+To get more information on the Bazart project you can contact me on [LinkedIn](https://www.linkedin.com/in/rayen-cherni-181b97198/) or by Email rayen.cherni@eniso.u-sousse.tn.<br/>
+Code updated on: **Jul 5, 2020** <br/>
+Readme updated on: **Jul,26 2022**. 
